@@ -45,7 +45,19 @@
 	echo ($$$$$hello  . "<br>");
 
 
+/*Урок 28. Предопределенные переменные
 
+Создать форму, которая содержит поля name, email, phone.
+Задать скрипт, который выведет на экран отправленные данные -
+$_POST или $_GET (в зависимости от свойств формы)*/
 
+	echo "<form method='get'>";
+	echo "<input type='text' name='name' placeholder='Name'><br>";
+	echo "<input type='text' name='email' placeholder='E-mail'><br>";
+	echo "<input type='text' name='phone' placeholder='Phone'><br>";
+	echo "<button type='submit'>Отправить</button>";
+	echo "</form>";
+
+	var_dump($_GET);
 
 ?>
