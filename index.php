@@ -32,6 +32,18 @@
 Создать скрипт, который бы вывел на экран значение переменной $$$$$hello.
 Значение может быть любым.*/
 
+	$one = "two";
+	$two = "three";
+	$three = "four";
+	$very_good = "one";
+	$hello = "very_good";
+
+	echo ($hello . "<br>");
+	echo ($$hello  . "<br>");
+	echo ($$$hello  . "<br>");
+	echo ($$$$hello  . "<br>");
+	echo ($$$$$hello  . "<br>");
+
 
 
 
